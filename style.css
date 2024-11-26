@@ -1,0 +1,50 @@
+body{
+  background-image: url(back.jpg);
+}
+.grid-container {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px; 
+}
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  }
+p{
+  color: #f0f0f0;
+}
+h1{
+  text-decoration: underline;
+  background-color: blue;
+  transition: 5s;
+}
+h1:hover{
+  transition: 1s;
+
+}
+h2{
+  text-shadow: 50px;
+  text-decoration: double;
+  color: aqua;
+}
+a{
+  color: aqua;
+}
+.gg{
+  color: cyan;
+}
